@@ -1,0 +1,20 @@
+.continue-btn {
+   padding: 12px;
+     
+     font-size: 16px;
+     height: 50px;
+     border: 1px solid #003b99;
+     cursor: pointer;
+     margin-top: 10px;
+     transition: all 0.7s ease;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+   }
+   
+   .continue-btn:hover {
+     opacity: 0.5;
+     transform: scale(1.1);
+   }
+   

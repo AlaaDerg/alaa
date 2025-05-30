@@ -1,0 +1,14 @@
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+  }
+  h2{
+    color: #062E6B;
+  }

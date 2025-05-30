@@ -1,0 +1,28 @@
+.navemp{
+   
+    margin: 5px 0 0 0;
+    padding: 0;
+    width: 90vw;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:" welcome   welcome useemp" ;
+}
+.welcome{
+     border-radius: 30px 0 0 30px  ;
+    height: 10vh;
+    background-color: #fff;
+    display: grid;
+    grid-area: welcome;
+    padding: 0 10px;
+    margin: 0px 0px 0px 10px;
+    align-items: center;
+}
+.useemp{
+    border-radius: 0 30px 30px 0  ;
+    margin: 0;
+    height: 10vh;
+    background-color: #fff;
+    display: grid;
+    grid-area: useemp;
+}

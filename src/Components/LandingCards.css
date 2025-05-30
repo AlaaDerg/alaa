@@ -1,0 +1,74 @@
+
+.LandingCardsContainer1 {
+border: 1px solid ;
+border-radius: 10px;
+border-color: #D6D6D6;
+width: 664px;
+height:380px;
+font-size: 22px;
+}
+/* .LandingCardsContainer > *{
+color : #
+
+} */
+ .LandingCardsContainer1 > p{
+    width: 616px;
+    margin: 30PX 20PX;
+ }
+.CardTitle{
+
+    color: #0C4498;
+}
+
+.boldText{
+    font-weight: bold;
+}
+.lightText{
+    color: #525252;
+}
+.LandingCardsContainer2 {
+    border: 1px solid ;
+    border-radius: 10px;
+    border-color: #D6D6D6;
+    width: 664px;
+    height:380px;
+    font-size: 22px;
+    }
+ 
+     .LandingCardsContainer2 > p{
+        width: 616px;
+        margin: 30PX 20PX;
+     }
+     
+     .LandingCardsContainer3{
+        border: 1px solid ;
+        border-radius: 10px;
+        border-color: #D6D6D6;
+        width: 664px;
+        height:286px;
+        font-size: 22px;
+        }
+     
+         .LandingCardsContainer3 > p{
+            width: 616px;
+            margin: 30PX 20PX;
+         }
+
+         .LandingCardsContainer4{
+            border: 1px solid ;
+            border-radius: 10px;
+            border-color: #D6D6D6;
+            width: 664px;
+            height:286px;
+            font-size: 22px;
+            }
+         
+             .LandingCardsContainer4 > p{
+                width: 616px;
+                margin: 30PX 20PX;
+             }
+         .blueStar {
+
+            color: #0C4498;
+            font-weight: bold;
+         }

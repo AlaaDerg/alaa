@@ -1,0 +1,86 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.myPopup {
+    background-color: #fff;
+    width: 460px;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+}
+
+.bigTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.labelTitle {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.inputContainer {
+    width: 100%;
+}
+
+.titleInp {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+}
+
+.titleInp::placeholder {
+    color: #757575;
+}
+
+textarea.titleInp {
+    resize: none;
+    min-height: 80px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.btn1, .btn2 {
+    flex: 1;
+}
+
+/* Style for the dropdown */
+select.titleInp {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23757575' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    padding-right: 40px;
+    color: #757575;
+}

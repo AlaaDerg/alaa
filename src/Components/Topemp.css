@@ -1,0 +1,100 @@
+.allemp{
+    background-color: #fff;
+    width: 25vw;
+    height: 120vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-areas:  "logoemp" "linksemp"  "linksemp" "linksemp" "vide" "vide" "vide" "vide" "vide""logemp" ;
+    gap: 40px;
+    border-radius: 15px;
+}
+.logoemp{
+    display: grid;
+    grid-area: logoemp;
+}
+.linksemp{
+    display: grid;
+    grid-area: linksemp;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: "dash" "offer" "allapp";
+    gap: 10px;
+}
+.dash{ 
+    display: grid;
+    grid-area: dash;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-areas: "icndash  dasht dasht dasht dasht dasht dasht dasht" ;
+    gap: 0;
+   
+}
+.dasht{
+    display: grid;
+    grid-area: dasht;
+    
+}
+.icndash{
+    display: grid;
+    grid-area: icndash;
+    padding: 0 0 0 30px;
+  
+}
+.offer{
+    display: grid;
+    grid-area: offer;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-areas: "icnoff  offt offt offt offt offt offt offt" ;
+    gap: 0;
+}
+.offt{
+    display: grid;
+    grid-area: offt;
+   
+}
+.icnoff{
+    display: grid;
+    grid-area: icnoff;
+    padding: 0 0 0 30px;
+}
+.allapp{
+    display: grid;
+    grid-area: allapp;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-areas: "icnapp  appt appt appt appt appt appt appt" ;
+    gap: 0;
+}
+.appt{
+    display: grid;
+    grid-area: appt;
+    
+}
+.icnapp{
+    display: grid;
+    grid-area: icnapp;
+    padding: 0 0 0 30px;
+}
+.logemp{
+    display: grid;
+    grid-area: logemp;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-areas: "icnlog  logt logt logt logt logt logt logt" ;
+    gap: 0;
+}
+.logt{
+    display: grid;
+    grid-area: logt;
+    color:  #525252;
+    
+}
+.icnlog{
+    display: grid;
+    grid-area: icnlog;
+    padding: 5px 0 0 30px;
+}
+.vide{
+    display: grid;
+    grid-area: vide;
+}
+a{
+    margin: 0 5px;
+}

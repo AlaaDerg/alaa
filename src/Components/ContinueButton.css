@@ -1,0 +1,17 @@
+.continue-btn {
+    width: 408PX;
+    padding: 12px;
+    background-color: #003b99;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.7s ease;
+  }
+  
+  .continue-btn:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }

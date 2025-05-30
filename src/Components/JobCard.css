@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.card {
+    width: 340px;
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.job-info {
+    flex-grow: 1;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+}
+
+.job-company {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.match-container {
+    display: flex;
+    align-items: center;
+}
+
+.match-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0047AB;
+    margin-right: 6px;
+}
+
+.progress-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: conic-gradient(#0047AB 70%, #E0E0E0 0%);
+    position: relative;
+}
+
+.progress-circle::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 50%;
+}
+
+.job-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.applicantContainer{
+    display: flex;
+}
+.applicants {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.applicants-count{
+    display: flex;
+
+}
+.applicants-word{
+    
+    font-size: 16px;
+    margin: 0;
+    margin-right: 5px;
+}
+.Number{
+    color: #666;
+    font-size: 12px;
+    margin-top: 3px;
+
+}
+.posted-time {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.bookmark {
+    width: 24px;
+    height: 24px;
+    /* border: 2px solid #333;
+    border-radius: 2px;
+    position: relative; */
+}
+
+/* .bookmark::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 4px;
+    width: 16px;
+    height: 8px;
+    background: white;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+} */
+.Job-description{
+margin-bottom: 10px;
+
+}
