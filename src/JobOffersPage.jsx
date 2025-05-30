@@ -1,14 +1,8 @@
 import React from 'react';
-import StateButton from './Components/StateButton' ;
-import StateButtonPlus from './Components/StateButtonPlus' ;
-import JobCard from './Components/JobCard';
-import LandingCards from './Components/LandingCards';
 import JobOffers from './Components/JobOffers' ;
-import OffersDropdown from './Components/OffersDropdown';
 import Navemp from './Components/Navemp';
 import UserSection from './Components/UserSection';
 import Topemp from './Components/Topemp';
-import guy1 from './assets/guy1.jpg';
 import plus from './assets/plus.png';
 import ContinueButton2 from './Components/ContinueButton2';
 import ContinueButton3 from './Components/ContinueButton3';

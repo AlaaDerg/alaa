@@ -1,0 +1,27 @@
+
+.notifyContainer {
+padding-top: 60px;
+
+border: 1px solid #908e8e ;
+border-radius: 7px;
+height: 178px;
+width: 579px;
+
+}
+.ttl{
+    padding-bottom: 7px;
+    margin-left: 20px;
+}
+.prg{
+    color: #908e8e;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.myBtns{
+    margin-left: 20px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

@@ -7,6 +7,9 @@ import OffersDropdown from './Components/OffersDropdown';
 import Home from "./JobOffersPage";
 import OffersPage from './OffersPage';
 import JobOffersPage from './JobOffersPage';
+import DashboardEmp from './DashboardEmp';
+import Notify from './Components/Notify';
+
 import './styles/fonts.css';  // Adjust path as needed
 // export const router = createBrowserRouter([
 //   {
@@ -21,7 +24,16 @@ import './styles/fonts.css';  // Adjust path as needed
 function App(){
   return (
     <div className="App">
-      <JobOffersPage></JobOffersPage>
+
+      <Notify
+      
+      ></Notify>
+      {/* <DashboardEmp val='236' percentage='+33' val1='23' percentage1='+4'
+        val2='13' percentage2='-5' 
+        val3='3' percentage3='+41'      
+        per='45'
+      ></DashboardEmp> */}
+      {/* <JobOffersPage></JobOffersPage> */}
       {/* <OffersPage></OffersPage> */}
     </div>
   );
